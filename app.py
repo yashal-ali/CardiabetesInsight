@@ -146,7 +146,7 @@ st.subheader('Insights for Cardiovascular Health and Diabetic Well-being.')
 if selected == 'Diabetes Prediction':
    
 
-    st.title('Diabetes Prediction using ML')
+    st.title('Predicting Diabetes through Machine Learning')
     random_tip = generate_random_diabetes_tip()
     if st.button('Generate Diabetes Tip'):
         random_tip = generate_random_diabetes_tip()
@@ -182,7 +182,7 @@ if selected == 'Diabetes Prediction':
 
 # Heart Disease Prediction Page
 if selected == 'Heart Disease Prediction':
-    st.title('Heart Disease Prediction using ML')
+    st.title('Predicting Heart Disease through Machine Learning')
     
     random_tip = generate_random_heart_disease_tip()
     if st.button('Generate Heart Disease Tip'):
